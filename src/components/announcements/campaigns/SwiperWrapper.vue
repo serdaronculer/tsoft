@@ -68,7 +68,7 @@
             <button
             @click="prevSlide"
                 class="arrow-left-campaigns p-4 rounded-full bg-white absolute left-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-50">
-                <img src="	https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-left.svg" class="campaign-arrow-left pointer-events-none" />
+                <img src="https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-left.svg" class="campaign-arrow-left pointer-events-none" />
             </button>
             <div class="swiper-pagination absolute"></div>
         </div>
