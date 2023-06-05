@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" >
+    <g>
+        <g>
+            <g>
+                <path fill="none" stroke="#f56d08" stroke-miterlimit="20"
+                    d="M10.5 20a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19z" />
+            </g>
+            <g>
+                <path fill="#f56d08" d="M6 11l3 3 6-6h-1.55l-4.339 4.355-2.2-2.208z" />
+            </g>
+        </g>
+    </g>
+</svg>

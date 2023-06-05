@@ -1,0 +1,262 @@
+@import '../src/assets/base.css';
+@import '../src/assets/custom_swiper.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'Mulish', sans-serif;
+    }
+}
+
+@layer components {
+    .sticky-menu-height {
+        height: var(--sticky-menu-height);
+    }
+
+    .nav-link {
+        @apply h-full flex items-center text-[13px]  relative mr-5 pr-5 hover:text-main-orange
+    }
+
+    .nav-link::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border-left: 2px solid #F8964D;
+        border-bottom: 2px solid #F8964D;
+        /* transform: rotate(-45deg) translateY(-100%); */
+        /* top: 50%; */
+        /* right: -5px; */
+        right: 0;
+        transform: rotate(45deg);
+        transition: .3s transform ease;
+    }
+
+    .nav-link::before {
+        content: "";
+        width: 0%;
+        left: 0;
+        height: 4px;
+        background-color: var(--main-orange);
+        top: 100%;
+        position: absolute;
+        transition: .4s width ease-in-out;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+    }
+
+    .nav-link:hover::after {
+        transform: rotate(-45deg);
+    }
+
+    .flag-select-box {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-left: 2px solid #F8964D;
+        border-bottom: 2px solid #F8964D;
+        right: 0;
+        transform: rotate(45deg);
+        transition: .3s transform ease;
+    }
+
+    .selected-language:hover .flag-select-box {
+        transform: rotate(-45deg);
+    }
+
+    .flag-item {
+        @apply flex gap-x-1 items-center w-full p-3
+    }
+
+    .try-now-button {
+        background: rgb(246, 155, 86);
+        background: linear-gradient(90deg, rgba(246, 155, 86, 1) 0%, rgba(250, 140, 58, 1) 22%, rgba(249, 121, 25, 1) 50%, rgba(247, 113, 6, 1) 74%);
+    }
+
+
+    .nav-icon-items::before {
+        width: 0%;
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--main-orange);
+        height: 4px;
+        transition: .5s width ease-in-out;
+    }
+
+    .nav-icon-items:hover::before {
+        width: 100%;
+
+    }
+
+    .nav-link-menu {
+        @apply -z-50 absolute -top-96 left-0 w-full bg-gray-200 invisible group-hover:visible group-hover:top-full transition-all duration-500;
+
+    }
+
+    .menu-banner-text {
+        @apply text-xl flex items-center max-h-14 px-16 py-5 absolute bottom-0 text-white left-0 w-full before:mr-1 before:text-white before:content-['|'];
+        background-image: linear-gradient(270deg, hsla(38, 97%, 53%, 0) 0%, hsl(26, 94%, 50%) 100%);
+        z-index: 9999;
+    }
+
+    .card-item {
+        @apply overflow-hidden text-ellipsis whitespace-nowrap text-sm relative pl-7;
+    }
+    
+  .card-item::after {
+   content: "";
+   left: 0;
+   top: 0;
+   position: absolute;
+   width: 22px;
+   height: 22px;
+   background: url('../src/assets/icons/check.svg');
+   background-repeat: no-repeat;
+  }
+
+  .statistics {
+    @apply flex justify-around rounded-3xl;
+    background-color: rgba(244,117,50,.9);
+    background-image: url('../src/assets/images/statistics/bg-statistic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .statistic-card {
+    @apply flex flex-col gap-5 mt-4 p-7 items-center;
+    width: 333.333px;
+  }
+
+  .statistic-card .statistic-card-value {
+    @apply text-4xl text-white text-center font-bold;
+  }
+
+  .card-body ul li::after {
+    content: "";
+    background: url('../src/assets/icons/check_green.svg');
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+  }
+
+  .tooltip.active {
+    @apply bg-main-orange text-white
+  }
+
+  .customer1-content.active {
+    display: flex;
+  }
+
+  .customer2-content.active {
+    display: flex;
+  }
+  .customer1-content{
+    display: none;
+  }
+  .customer2-content {
+    display: none;
+  }
+  .tooltip.customer1.active::after {
+    position: absolute;
+    content: "";
+    right: 50px;
+    top: 100%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #f66e07;
+  }
+
+  .tooltip.customer2.active::after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 100%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #f66e07;
+  }
+
+  .description {
+    @apply text-sm text-gray-400 min-h-[78px] overflow-hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+
+  div .card-customer-banner {
+    width: 80px;
+    height: 30px;
+  }
+
+ .brand-item {
+  @apply flex justify-center items-center bg-white rounded-3xl h-[70px] p-[5px] hover:border-main-orange border max-w-[160px] shadow-sm;
+ }
+
+ .brand-item .brand-item-img {
+  @apply h-full object-contain transition-all
+ }
+
+ .brand-item:hover .brand-item-img {
+  transform: scale(1.15);
+ }
+
+ .news-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--main-orange);
+  height: 100%;
+  width: 4px;
+  border-radius: 10px;
+ }
+
+ .arrow-upp {
+
+  background-image: url("../src/assets/arrow_up.svg");
+  background-color: #dfdfdf;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(246,110,7,.8);
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .news-button-disabled {
+  opacity: .5;
+    cursor: not-allowed;
+ }
+ .campaign-item img {
+  max-width: 100%;
+  width: 250px;
+ }
+
+ .swiper-campaigns .campaign-arrow-right {
+  @apply  w-3 h-3
+  
+ }
+ .swiper-campaigns  .campaign-arrow-left {
+  @apply  w-3 h-3
+  
+ }
+}
