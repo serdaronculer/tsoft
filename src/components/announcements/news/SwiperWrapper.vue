@@ -8,11 +8,11 @@
             <div class="button-group gap-4 flex items-center ">
                 <button @click="prevSlide" :class="prev ? '' : 'news-button-disabled'"
                     class="arrow-up-news  border border-main-orange rounded-full flex justify-center items-center p-3">
-                    <img class="w-4 h-4" src="../../../assets/icons/arrow_up.svg" alt="">
+                    <img class="w-4 h-4" src="https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-up.svg" alt="">
                 </button>
                 <button @click="nextSlide" :class="next ? '' : 'news-button-disabled'"
                     class="arrow-down-news border border-main-orange rounded-full flex justify-center items-center p-3">
-                    <img class="w-4 h-4 rotate-180" src="../../../assets/icons/arrow_up.svg" alt="">
+                    <img class="w-4 h-4 rotate-180" src="https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-up.svg" alt="">
                 </button>
                 <button class="bg-gray-300 rounded-full py-2 px-4 font-semibold">Tümü</button>
             </div>

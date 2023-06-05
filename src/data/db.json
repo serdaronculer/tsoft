@@ -1,80 +1,30 @@
 {
     "bannerItems": [
         {
-            "name": "Özellikler",
-            "navItem": {
-                "bannerLogo": "https://www.tsoft.com.tr/assets/images/navbar/about-us.jpg",
-                "slogan": "Müşterilerimiz Ne Diyor?",
-                "sloganText": "Yüzlerce girişimci T-Soft'la e-ticarete başladı, milyonlarca lira ciro yapıldı, yüzbinlerce ziyaretçi siteleri ziyaret etti, onlarca başarı öyküsü yazıldı, müşterilerimizden yüzlerce teşekkür aldık, T-Soft e-ticaret sistemleri ile kazananlar arasında olma sırası bu sefer sizde!",
-                "bannerItems": [
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Lojistik Entegrasyonları"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Tedarikçi Entegrasyonları"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Fiyat Karşılaştırma Siteleri"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Ödeme Entegrasyonları"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Kampanya Yönetimi Özellikleri"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Excel Ürün Sihirbazı"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Pazaryeri Entegrasyonları"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Facebook Kolay Reklam"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "T-Soft'la Fark Yaratın"
-                    },
-                    {
-                        "imgsrc": "/src/assets/icons/arrow_right.svg",
-                        "title": "Ticari Yazılım Entegrasyonları"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Ürünler",
+            "name": "Kurumsal",
             "navItem": {
                 "bannerLogo": "https://www.tsoft.com.tr/assets/images/navbar/about-us.jpg",
                 "slogan": "Doğru Yerdesiniz",
                 "sloganText": "Burada e-ticaret konuşulur, e-ticaret yazılır, e-ticaret desteklenir, e-ticaret için fikir üretilir. Bizim işimiz e-ticaret. 20 yıllık deneyimimiz, 230’dan fazla çalışanımızla bizi tercih eden 2.000’den fazla mutlu müşterimiz gibi siz de e-ticaret yolculuğuna bizimle başlayın.",
                 "bannerItems": [
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/about_us.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-about-us.svg",
                         "title": "Hakkımızda"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/news.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-news.svg",
                         "title": "Haberler"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/campaigns.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-campaigns.svg",
                         "title": "Kampanyalar"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/blog.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-blog.svg",
                         "title": "Blog"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/career.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-career.svg",
                         "title": "Kariyer İmkanları"
                     },
                     {
@@ -82,12 +32,62 @@
                         "title": "Yazılım Geliştirme Notları"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/education.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-education.svg",
                         "title": "E-Ticaret Eğitimleri"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/partnership.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-partnership.svg",
                         "title": "İş Çözüm Ortaklığı"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Özellikler",
+            "navItem": {
+                "bannerLogo": "https://www.tsoft.com.tr/assets/images/navbar/about-us.jpg",
+                "slogan": "Müşterilerimiz Ne Diyor?",
+                "sloganText": "Yüzlerce girişimci T-Soft'la e-ticarete başladı, milyonlarca lira ciro yapıldı, yüzbinlerce ziyaretçi siteleri ziyaret etti, onlarca başarı öyküsü yazıldı, müşterilerimizden yüzlerce teşekkür aldık, T-Soft e-ticaret sistemleri ile kazananlar arasında olma sırası bu sefer sizde!",
+                "bannerItems": [
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Lojistik Entegrasyonları"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Tedarikçi Entegrasyonları"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Fiyat Karşılaştırma Siteleri"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Ödeme Entegrasyonları"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Kampanya Yönetimi Özellikleri"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Excel Ürün Sihirbazı"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Pazaryeri Entegrasyonları"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Facebook Kolay Reklam"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "T-Soft'la Fark Yaratın"
+                    },
+                    {
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/arrow/arrow-right.svg",
+                        "title": "Ticari Yazılım Entegrasyonları"
                     }
                 ]
             }
@@ -100,23 +100,23 @@
                 "sloganText": "Burada e-ticaret konuşulur, e-ticaret yazılır, e-ticaret desteklenir, e-ticaret için fikir üretilir. Bizim işimiz e-ticaret. 20 yıllık deneyimimiz, 230’dan fazla çalışanımızla bizi tercih eden 2.000’den fazla mutlu müşterimiz gibi siz de e-ticaret yolculuğuna bizimle başlayın.",
                 "bannerItems": [
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/about_us.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-about-us.svg",
                         "title": "Hakkımızda"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/news.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-news.svg",
                         "title": "Haberler"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/campaigns.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-campaigns.svg",
                         "title": "Kampanyalar"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/blog.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-blog.svg",
                         "title": "Blog"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/career.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-career.svg",
                         "title": "Kariyer İmkanları"
                     },
                     {
@@ -124,11 +124,11 @@
                         "title": "Yazılım Geliştirme Notları"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/education.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-education.svg",
                         "title": "E-Ticaret Eğitimleri"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/partnership.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-partnership.svg",
                         "title": "İş Çözüm Ortaklığı"
                     }
                 ]
@@ -142,23 +142,23 @@
                 "sloganText": "Burada e-ticaret konuşulur, e-ticaret yazılır, e-ticaret desteklenir, e-ticaret için fikir üretilir. Bizim işimiz e-ticaret. 20 yıllık deneyimimiz, 230’dan fazla çalışanımızla bizi tercih eden 2.000’den fazla mutlu müşterimiz gibi siz de e-ticaret yolculuğuna bizimle başlayın.",
                 "bannerItems": [
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/about_us.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-about-us.svg",
                         "title": "Hakkımızda"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/news.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-news.svg",
                         "title": "Haberler"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/campaigns.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-campaigns.svg",
                         "title": "Kampanyalar"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/blog.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-blog.svg",
                         "title": "Blog"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/career.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-career.svg",
                         "title": "Kariyer İmkanları"
                     },
                     {
@@ -166,11 +166,11 @@
                         "title": "Yazılım Geliştirme Notları"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/education.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-education.svg",
                         "title": "E-Ticaret Eğitimleri"
                     },
                     {
-                        "imgsrc": "/src/assets/icons/enterprise/partnership.svg",
+                        "imgsrc": "https://www.tsoft.com.tr/assets/images/icon/menu/ti-partnership.svg",
                         "title": "İş Çözüm Ortaklığı"
                     }
                 ]
@@ -377,7 +377,7 @@
     ],
     "popularReferences": [
         {
-            "categoryTitle" : "Elektrikli Ev Aletleri",
+            "categoryTitle": "Elektrikli Ev Aletleri",
             "brands": [
                 "https://www.tsoft.com.tr/img/anarefv5/arzum.png",
                 "https://www.tsoft.com.tr/img/anarefv5/fakir.png",
@@ -393,7 +393,7 @@
             ]
         },
         {
-            "categoryTitle" : "Ayakkabı & Çanta",
+            "categoryTitle": "Ayakkabı & Çanta",
             "brands": [
                 "https://www.tsoft.com.tr/img/anarefv5/matmazel.png",
                 "https://www.tsoft.com.tr/img/anarefv5/scooter.png",
@@ -409,7 +409,7 @@
             ]
         }
     ],
-    "announcements" : [
+    "announcements": [
         {
             "imgSrc": "https://www.tsoft.com.tr/img/haber/insider-lift-awards-2022K.jpg",
             "title": "Insider'ın, En Başarılı Entegrasyon Çözüm Ortağı T-Soft oldu",
@@ -440,7 +440,7 @@
             "title": "Insider'ın, En Başarılı Entegrasyon Çözüm Ortağı T-Soft oldu",
             "description": "Insider LIFT AWARDS Zorlu PSM'de gerçekleştirilen ödül töreninde en başarılı şirketleri duyurdu"
         },
-         {
+        {
             "imgSrc": "https://www.tsoft.com.tr/img/haber/insider-lift-awards-2022K.jpg",
             "title": "Insider'ın, En Başarılı Entegrasyon Çözüm Ortağı T-Soft oldu",
             "description": "Insider LIFT AWARDS Zorlu PSM'de gerçekleştirilen ödül töreninde en başarılı şirketleri duyurdu"
